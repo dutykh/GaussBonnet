@@ -4,12 +4,6 @@
 Dr Davide Batic & Dr Denys Dutykh  
 Khalifa University of Science and Technology, Abu Dhabi, UAE
 
-## License
-This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007.  
-See [LICENSE](LICENSE) for details.
-
----
-
 ## Analytical Computations (Maple)
 
 This repository also contains three Maple worksheet files with the analytical computations supporting our study:
@@ -24,3 +18,9 @@ This repository also contains three Maple worksheet files with the analytical co
 These files contain symbolic derivations and supplemental material relevant to the regression analysis performed in the MATLAB scripts.
 
 This is a minimal README. Please see the MATLAB scripts, Maple files, and LICENSE file for more information. This document will be expanded in the future.
+
+## License
+This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007.  
+See [LICENSE](LICENSE) for details.
+
+---
