@@ -41,8 +41,8 @@ The `regression` folder contains MATLAB scripts that perform linear regression a
    ```
    The script will automatically create `shots` and `data` subfolders if they do not exist.
 
-### Connection to Analytical Results
-The regression analysis is informed by the analytical computations in the Maple worksheet files. The symbolic derivations in the Maple files provide theoretical predictions and context for the numerical trends observed and quantified in the regression scripts.
+## Connection to Analytical Results
+The numerical computation of QNMs is informed by and heavily based upon the analytical computations in the Maple worksheet files. The symbolic derivations in the Maple files provide theoretical models and formulations and context for the numerical in the well-chosen variables.
 
 For more details, see the comments in each script and the analytical Maple files.
 
