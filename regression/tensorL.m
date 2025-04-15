@@ -141,6 +141,6 @@ saveas(gcf, 'shots/tensor-linreg-01.png');
 print('shots/tensor-linreg-01', '-dpdf', '-r300', '-bestfit');
 
 % Save the data to a .mat file
-save('data/spectral_gap_data.mat', 'dataTable');
+save('data/tensor-linreg-01.mat', 'dataTable');
 
 fprintf('Analysis complete. Figures saved in the "shots" folder.\n');
