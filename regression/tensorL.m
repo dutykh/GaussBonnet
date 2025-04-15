@@ -1,4 +1,28 @@
-% Script file named "tensorL.m"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Script: tensorL.m
+%
+% Authors: Dr Davide Batic & Dr Denys Dutykh
+%          Khalifa University of Science and Technology, Abu Dhabi, UAE
+%
+% License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
+%          (see https://www.gnu.org/licenses/gpl-3.0.html)
+%
+% Description:
+%   This script performs regression analysis on spectral gap data for tensor
+%   perturbations of black holes in Gauss-Bonnet gravity. It computes mean
+%   and standard deviation of the spectral gap for different values of the
+%   coupling parameter alpha and mode number L, performs linear regression,
+%   and visualizes the results. Outputs are saved as figures and .mat files.
+%
+% Usage:
+%   Run this script in MATLAB or GNU Octave. It will create 'shots' and 'data'
+%   subfolders (if not present), save plots as PDF/PNG in 'shots', and results
+%   as .mat files in 'data'.
+%
+% Contact:
+%   For questions, contact the authors via their institutional pages.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 close all
 
