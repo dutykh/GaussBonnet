@@ -147,3 +147,58 @@ print('shots/scalar-linreg-01', '-dpdf', '-r300', '-bestfit');
 save('data/scalar-linreg-01.mat', 'dataTable');
 
 fprintf('Analysis complete. Figures saved in the "shots" folder.\n');
+---------- Forwarded message ---------
+From: Lu Lu via SIAM <Mail@connectedcommunity.org>
+Date: Mon, Apr 14, 2025 at 7:43 PM
+Subject: SIAG on Computational Science and Engineering Community : Join the Yale/UNC-CH Geophysical Waveform Inversion Kaggle Competition!
+To: <ahmaddeeb25@gmail.com>
+
+
+￼
+SIAG on Computational Science and Engineering Community
+Post New Message
+Join the Yale/UNC-CH Geophysical Waveform Inversion Kaggle Competition!
+Reply to Group	Reply to Sender
+￼	
+Apr 14, 2025 11:43 AM  |  ￼  view attached
+Lu Lu
+Dear all, 
+
+We are excited to announce the Yale/UNC-CH Geophysical Waveform Inversion Competition on Kaggle! This competition invites participants to develop machine learning algorithms for estimating subsurface properties, such as velocity maps, from seismic waveform data. 
+
+By entering this challenge, you'll have the opportunity to bridge the gaps in seismic analysis by combining physics and machine learning. Your participation could lead to significant advancements in full waveform inversion, which has applications in subsurface energy exploration, medical diagnostics, non-destructive material testing, and more. 
+
+Entry Deadline: June 23, 2025 
+Prizes: 
+1st Place - $12,000 
+2nd Place - $10,000 
+3rd Place - $10,000 
+4th Place - $10,000 
+5th Place - $8,000 
+This is a unique opportunity to showcase your skills, contribute to a critical area of research, and win substantial prizes. We look forward to seeing your innovative solutions and wish you the best of luck in the competition. 
+
+Best regards, 
+
+Lu Lu, Assistant Professor, Yale University
+Youzuo Lin, Associate Professor, University of North Carolina at Chapel Hill 
+
+
+
+------------------------------
+Lu Lu
+Assistant Professor of Statistics and Data Science
+Faculty of Institute for Foundations of Data Science
+Faculty of Wu Tsai Institute
+Faculty of Center for Algorithms, Data, and Market Design at Yale
+Faculty of Center for Materials Innovation
+Yale University
+https://lugroup.yale.edu
+
+------------------------------
+  Reply to Group Online   View Thread   Recommend   Forward   Flag as Inappropriate  
+
+
+
+ 
+You are subscribed to "SIAG on Computational Science and Engineering Community" as ahmaddeeb25@gmail.com. To change your subscriptions, go to My Subscriptions. To unsubscribe from this community discussion, go to Unsubscribe.
+￼
