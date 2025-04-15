@@ -17,17 +17,17 @@ dataTable = table('Size', [0, 3], 'VariableTypes', {'double', 'double', 'cell'},
 
 % Add data only for α = 0.2 and α = 0.5
 % α = 0.2, L = 0
-dataTable = addSpectralGapDataScal(dataTable, 0.2, 0, [0.7271, 0.7274, 0.7272, 0.7273, 0.7273]);
+dataTable = addSpectralGapData(dataTable, 0.2, 0, [0.7271, 0.7274, 0.7272, 0.7273, 0.7273]);
 % α = 0.2, L = 1
-dataTable = addSpectralGapDataScal(dataTable, 0.2, 1, [0.7275, 0.7277, 0.7277, 0.7276, 0.7276]);
+dataTable = addSpectralGapData(dataTable, 0.2, 1, [0.7275, 0.7277, 0.7277, 0.7276, 0.7276]);
 % α = 0.2, L = 2
-dataTable = addSpectralGapDataScal(dataTable, 0.2, 2, [0.7282, 0.7282, 0.7281, 0.7281, 0.7281]);
+dataTable = addSpectralGapData(dataTable, 0.2, 2, [0.7282, 0.7282, 0.7281, 0.7281, 0.7281]);
 % α = 0.5, L = 0
-dataTable = addSpectralGapDataScal(dataTable, 0.5, 0, [0.7264, 0.7263, 0.7264, 0.7265, 0.7264]);
+dataTable = addSpectralGapData(dataTable, 0.5, 0, [0.7264, 0.7263, 0.7264, 0.7265, 0.7264]);
 % α = 0.5, L = 1
-dataTable = addSpectralGapDataScal(dataTable, 0.5, 1, [0.7272, 0.7271, 0.7271, 0.7271, 0.7271]);
+dataTable = addSpectralGapData(dataTable, 0.5, 1, [0.7272, 0.7271, 0.7271, 0.7271, 0.7271]);
 % α = 0.5, L = 2
-dataTable = addSpectralGapDataScal(dataTable, 0.5, 2, [0.7286, 0.7284, 0.7282, 0.7282, 0.7281, 0.7284]);
+dataTable = addSpectralGapData(dataTable, 0.5, 2, [0.7286, 0.7284, 0.7282, 0.7282, 0.7281, 0.7284]);
 
 % Calculate means for each combination of alpha and L
 numRows = height(dataTable);

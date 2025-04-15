@@ -15,19 +15,19 @@ dataTable = table('Size', [0, 3], 'VariableTypes', {'double', 'double', 'cell'},
 
 % Add data from Table X
 % α = 0.1
-dataTable = addSpectralGapDataVec(dataTable, 0.1, 1, [1.2173, 1.2174, 1.2173, 1.2174, 1.2174]);
-dataTable = addSpectralGapDataVec(dataTable, 0.1, 2, [1.2176, 1.2175, 1.2176, 1.2176, 1.2176]);
-dataTable = addSpectralGapDataVec(dataTable, 0.1, 3, [1.2180, 1.2177, 1.2179, 1.2178, 1.2179]);
+dataTable = addSpectralGapData(dataTable, 0.1, 1, [1.2173, 1.2174, 1.2173, 1.2174, 1.2174]);
+dataTable = addSpectralGapData(dataTable, 0.1, 2, [1.2176, 1.2175, 1.2176, 1.2176, 1.2176]);
+dataTable = addSpectralGapData(dataTable, 0.1, 3, [1.2180, 1.2177, 1.2179, 1.2178, 1.2179]);
 
 % α = 0.2
-dataTable = addSpectralGapDataVec(dataTable, 0.2, 1, [1.2225, 1.2224, 1.2225, 1.2225, 1.2225]);
-dataTable = addSpectralGapDataVec(dataTable, 0.2, 2, [1.2227, 1.2228, 1.2228, 1.2227, 1.2228]);
-dataTable = addSpectralGapDataVec(dataTable, 0.2, 3, [1.2231, 1.2232, 1.2231, 1.2231, 1.2232]);
+dataTable = addSpectralGapData(dataTable, 0.2, 1, [1.2225, 1.2224, 1.2225, 1.2225, 1.2225]);
+dataTable = addSpectralGapData(dataTable, 0.2, 2, [1.2227, 1.2228, 1.2228, 1.2227, 1.2228]);
+dataTable = addSpectralGapData(dataTable, 0.2, 3, [1.2231, 1.2232, 1.2231, 1.2231, 1.2232]);
 
 % α = 0.5
-dataTable = addSpectralGapDataVec(dataTable, 0.5, 1, [1.2186, 1.2186, 1.2186, 1.2186, 1.2186]);
-dataTable = addSpectralGapDataVec(dataTable, 0.5, 2, [1.2198, 1.2192, 1.2192, 1.2191, 1.2191]);
-dataTable = addSpectralGapDataVec(dataTable, 0.5, 3, [1.2200, 1.2200, 1.2199, 1.2198, 1.2198]);
+dataTable = addSpectralGapData(dataTable, 0.5, 1, [1.2186, 1.2186, 1.2186, 1.2186, 1.2186]);
+dataTable = addSpectralGapData(dataTable, 0.5, 2, [1.2198, 1.2192, 1.2192, 1.2191, 1.2191]);
+dataTable = addSpectralGapData(dataTable, 0.5, 3, [1.2200, 1.2200, 1.2199, 1.2198, 1.2198]);
 
 % Calculate means for each combination of alpha and L
 numRows = height(dataTable);

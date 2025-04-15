@@ -16,15 +16,15 @@ dataTable = table('Size', [0, 3], 'VariableTypes', {'double', 'double', 'cell'},
     'VariableNames', {'L', 'alpha', 'deltaOmega'});
 
 % Add all data chunks
-dataTable = addSpectralGapDataTens(dataTable, 2, 0.1, [1.2178, 1.2181, 1.2179, 1.2180, 1.2180]);
-dataTable = addSpectralGapDataTens(dataTable, 2, 0.2, [1.2233, 1.2232, 1.2232, 1.2232, 1.2231]);
-dataTable = addSpectralGapDataTens(dataTable, 2, 0.5, [1.2201, 1.2202, 1.2201, 1.2199, 1.2200]);
-dataTable = addSpectralGapDataTens(dataTable, 3, 0.1, [1.2183, 1.2185, 1.2184, 1.2184, 1.2184]);
-dataTable = addSpectralGapDataTens(dataTable, 3, 0.2, [1.2239, 1.2238, 1.2238, 1.2238, 1.2237]);
-dataTable = addSpectralGapDataTens(dataTable, 3, 0.5, [1.2217, 1.2215, 1.2214, 1.2212, 1.2211]);
-dataTable = addSpectralGapDataTens(dataTable, 4, 0.1, [1.2190, 1.2191, 1.2190, 1.2189, 1.2190]);
-dataTable = addSpectralGapDataTens(dataTable, 4, 0.2, [1.2247, 1.2247, 1.2246, 1.2245, 1.2245]);
-dataTable = addSpectralGapDataTens(dataTable, 4, 0.5, [1.2232, 1.2229, 1.2227, 1.2225, 1.2223]);
+dataTable = addSpectralGapData(dataTable, 2, 0.1, [1.2178, 1.2181, 1.2179, 1.2180, 1.2180]);
+dataTable = addSpectralGapData(dataTable, 2, 0.2, [1.2233, 1.2232, 1.2232, 1.2232, 1.2231]);
+dataTable = addSpectralGapData(dataTable, 2, 0.5, [1.2201, 1.2202, 1.2201, 1.2199, 1.2200]);
+dataTable = addSpectralGapData(dataTable, 3, 0.1, [1.2183, 1.2185, 1.2184, 1.2184, 1.2184]);
+dataTable = addSpectralGapData(dataTable, 3, 0.2, [1.2239, 1.2238, 1.2238, 1.2238, 1.2237]);
+dataTable = addSpectralGapData(dataTable, 3, 0.5, [1.2217, 1.2215, 1.2214, 1.2212, 1.2211]);
+dataTable = addSpectralGapData(dataTable, 4, 0.1, [1.2190, 1.2191, 1.2190, 1.2189, 1.2190]);
+dataTable = addSpectralGapData(dataTable, 4, 0.2, [1.2247, 1.2247, 1.2246, 1.2245, 1.2245]);
+dataTable = addSpectralGapData(dataTable, 4, 0.5, [1.2232, 1.2229, 1.2227, 1.2225, 1.2223]);
 
 % Calculate means for each combination of L and alpha
 numRows = height(dataTable);
