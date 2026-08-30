@@ -1,5 +1,15 @@
 # Quasinormal Modes of Gauss–Bonnet Black Holes via the Spectral Method
 
+[![Phys. Rev. D](https://img.shields.io/badge/Phys.%20Rev.%20D-114%20%282026%29%20044015-005a9c)](https://link.aps.org/doi/10.1103/91q6-r3jd)
+[![DOI](https://img.shields.io/badge/DOI-10.1103%2F91q6--r3jd-1a7f37)](https://doi.org/10.1103/91q6-r3jd)
+[![arXiv](https://img.shields.io/badge/arXiv-2608.06083-b31b1b)](https://arxiv.org/abs/2608.06083)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-4c1)](LICENSE)
+[![Maple](https://img.shields.io/badge/Maple-2024%2B-ff6f00)](https://www.maplesoft.com/products/Maple/)
+[![MATLAB](https://img.shields.io/badge/MATLAB-Advanpix%20MCT-0076a8)](https://www.advanpix.com/)
+[![QNMs Hall of Fame](https://img.shields.io/badge/QNMs-Hall%20of%20Fame-8a2be2)](https://qnms.denys-dutykh.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-dutykh%2FGaussBonnet-181717?logo=github)](https://github.com/dutykh/GaussBonnet)
+[![Last commit](https://img.shields.io/github/last-commit/dutykh/GaussBonnet)](https://github.com/dutykh/GaussBonnet/commits/main)
+
 Supplementary computational material (Maple, MATLAB/Octave) for the study of
 scalar, vector and tensor quasinormal modes (QNMs) of higher-dimensional
 Schwarzschild–Tangherlini black holes corrected by a Gauss–Bonnet (GB) term.
