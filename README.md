@@ -37,7 +37,7 @@ f(ρ) = 1 + ρ²/(2α̂) [ 1 − √(1 + 8α̂/ρ^(n+1)) ],          ρ_h^(n−1
 the second equation giving the event horizon ρ_h. For n = 3 a horizon exists for 0 ⩽ α̂ < 2 only; for n ⩾ 4 there is
 always one, which shrinks as α̂ grows. With the time dependence e^(−iωt), each perturbation obeys an equation of the
 form f d/dρ( f dR/dρ ) + [Ω² − U(ρ)] R = 0, with the dimensionless frequency Ω = ω M^(1/(n−1)) (Im Ω < 0 for a damped
-mode) and a potential U of its own sector: the scalar one is given by equation (10) of the article, the vector and
+mode) and a potential U of its own sector: the scalar one is given by equation (11) of the article, the vector and
 tensor ones, which involve further functions of the background, in sections V and VII. The angular momentum enters
 through
 
