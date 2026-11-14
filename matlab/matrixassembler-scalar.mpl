@@ -1,5 +1,5 @@
-# Matrices assembling for dirty black-holes' quasi-normal modes computation
-# Non-extreme case
+# Matrices assembling for Gauss-Bonnet black holes' quasi-normal modes computation
+# Non-extreme case, spin s = 0
 MatrixAssembler := proc (
   d::integer, # d : number of digits used in computations
   N::integer, # N : number of Tchebyshev modes

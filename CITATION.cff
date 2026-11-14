@@ -1,0 +1,52 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use this code, please cite the article given under preferred-citation."
+title: "GaussBonnet: scalar, vector and tensor quasinormal modes of Gauss–Bonnet black holes"
+type: software
+authors:
+  - family-names: Batic
+    given-names: Davide
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0002-7619-4900"
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+repository-code: "https://github.com/dutykh/GaussBonnet"
+license: GPL-3.0-only
+version: 1.0.0
+date-released: "2026-11-14"
+keywords:
+  - general-relativity
+  - black-holes
+  - gauss-bonnet
+  - quasinormal-modes
+  - spectral-methods
+  - chebyshev-polynomials
+  - maple
+  - matlab
+abstract: >-
+  Maple worksheets and procedures, with MATLAB scripts, for the scalar, vector and tensor quasinormal modes of
+  Schwarzschild–Tangherlini black holes corrected by a Gauss–Bonnet term, in dimensions 5 to 26. A Chebyshev
+  collocation of the compactified radial equation in multiprecision arithmetic gives a quadratic eigenvalue problem
+  solved with polyeig and the Advanpix toolbox, and five scripts fit straight lines to the spacing of the purely
+  imaginary modes against the multipole.
+preferred-citation:
+  type: article
+  title: 'Quasinormal Modes of Gauss-Bonnet Black Holes via the Spectral Method: Scalar, Vector, and Tensor Perturbations'
+  authors:
+  - family-names: Batic
+    given-names: Davide
+  - family-names: Dutykh
+    given-names: Denys
+  journal: Physical Review D
+  volume: 114
+  issue: '4'
+  start: '044015'
+  year: 2026
+  month: 8
+  doi: 10.1103/91q6-r3jd
+  identifiers:
+  - type: url
+    value: https://arxiv.org/abs/2608.06083
+    description: arXiv preprint
