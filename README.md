@@ -59,9 +59,7 @@ problem as `polyeig(M0, mp('1i')*M1, M2)`.
 
 In the code, `n` is the dimension of the sphere of the line element, so that D = n + 2 and the mass term of f carries
 the exponent n − 1 = D − 3; `ah` is the rescaled coupling α̂ and `rhoh` the horizon ρ_h. The comments of the three
-procedures call `n` the number of compactified dimensions and `ah` the physical string coupling parameter, and some
-figure captions of the article also call n the number of compactified dimensions; the definition that the code
-follows is D = n + 2, that of section II of the article.
+procedures say so, with the definition D = n + 2 of section II of the article.
 
 ## Quick start
 
@@ -149,6 +147,14 @@ Maple 2024 or later, in which the worksheets are saved. MATLAB with the Advanpix
 commercial toolbox) for `chaseQNMs.m`: the pencils are severely ill-conditioned at high resolution and double precision
 does not suffice. The regression scripts need MATLAB only. The figure of this page needs Python 3 with NumPy and
 Matplotlib, and is redrawn from `docs/figures/` by `python3 plot_readme_figure.py`.
+
+## A note on the article
+
+Eleven figure captions of the article (Figs. 6 to 9, 14, 16, 18 and 22 to 25) call n "the number of compactified
+dimensions". In the article, as in the code, n is the dimension of the sphere Sⁿ of the line element, so that the
+spacetime has D = n + 2 dimensions (section II of the article); the case n = 5, for instance, is the seven-dimensional
+black hole of the tables. The code follows this definition, so that the computations and the results of the article are
+not affected.
 
 ## How to cite
 

@@ -4,8 +4,8 @@ MatrixAssembler := proc (
   d::integer, # d : number of digits used in computations
   N::integer, # N : number of Tchebyshev modes
   L::numeric, # L : angular momentum, L >= 2
-  n::numeric, # n : number of compactified dimensions
-  ah::numeric,# ah: physical string coupling parameter
+  n::numeric, # n : dimension of the sphere S^n of the line element (n >= 3); spacetime dimension D = n + 2
+  ah::numeric,# ah: rescaled dimensionless Gauss-Bonnet coupling alpha-hat = (n-1)(n-2)*alpha*k/M^(2/(n-1)), eq. (5)
   p::string   # p : string of characters containing the path where we save the assembled matrices
   )
   local f::function, fp::function, rhoh::numeric, alpha::numeric, kappa::numeric, lambda::numeric, a:: numeric, fpp::function, fppp::function, UT::function, KT::function, KTp::function, KTpp::function, qT::function, P::function, L00::function, L01::function, L02::function, L10::function, L11::function, L12::function, L20::function, L21::function, L22::function, M0::Matrix, M1::Matrix, M2::Matrix, i::integer, j::integer, expr0::algebraic, expr1::algebraic, expr2::algebraic, xi::numeric, path::string, nstr::string:
